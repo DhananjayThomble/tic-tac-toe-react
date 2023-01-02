@@ -107,7 +107,7 @@ const App = () => {
               </Button>
             </div>
           ) : (
-            <h1 className="text-center text-warning">
+            <h1 className="text-center text-info">
               {isCross ? "Cross turns" : "Circle turns"}
             </h1>
           )}
